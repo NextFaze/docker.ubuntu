@@ -25,7 +25,7 @@ docker_opts: ""
 # List of users to be added to 'docker' system group (disabled by default)
 # SECURITY WARNING: 
 # Be aware that granted users can easily get full root access on the docker host system!
-docker_group_members: []
+docker_group_members: [jenkins]
 
 # configurable proxies: a reasonable default is to re-use the proxy from ansible_env:
 # docker_http_proxy: "{{ ansible_env.http_proxy|default('') }}"
